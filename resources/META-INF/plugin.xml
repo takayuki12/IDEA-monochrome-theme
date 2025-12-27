@@ -1,0 +1,54 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>com.github.monochrome</id>
+    <version>1.0.0</version>
+
+    <!-- Public plugin name should be written in Title Case.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
+    <name>Monochrome Theme</name>
+    <category>UI</category>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor url="https://github.com/kdheepak/monochrome.nvim">Based on monochrome.nvim by kdheepak</vendor>
+
+    <idea-version since-build="252.25557"/>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
+    <description><![CDATA[
+        A monochrome colorscheme for IntelliJ-based IDEs, ported from the popular monochrome.nvim theme.<br>
+        <br>
+        <em>Features:</em>
+        <ul>
+          <li>Clean, distraction-free monochromatic design</li>
+          <li>Grayscale syntax highlighting with subtle color accents</li>
+          <li>Carefully crafted contrast for optimal readability</li>
+          <li>Support for all major languages and frameworks</li>
+          <li>Consistent UI theming across all IDE components</li>
+        </ul>
+        <br>
+        Based on the excellent <a href="https://github.com/kdheepak/monochrome.nvim">monochrome.nvim</a> theme.
+    ]]></description>
+
+    <!-- Short summary of new features and bugfixes in the latest plugin version.
+         Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
+    <change-notes><![CDATA[
+        <h3>1.0.0</h3>
+        <ul>
+          <li>Initial release</li>
+          <li>Full UI theme with monochromatic design</li>
+          <li>Comprehensive syntax highlighting for all major languages</li>
+          <li>Git/VCS integration with diff colors</li>
+          <li>Error, warning, and info highlighting</li>
+        </ul>
+    ]]></change-notes>
+
+    <!-- Product and plugin compatibility requirements.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="com.github.monochrome" path="/theme/monochrome.theme.json"/>
+    </extensions>
+</idea-plugin>

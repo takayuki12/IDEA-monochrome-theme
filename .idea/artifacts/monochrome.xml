@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="monochrome">
+    <output-path>$PROJECT_DIR$/out/artifacts/monochrome</output-path>
+    <root id="archive" name="monochrome.jar">
+      <element id="module-output" name="monochrome" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
+      </element>
+    </root>
+  </artifact>
+</component>
