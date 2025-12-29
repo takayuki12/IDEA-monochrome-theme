@@ -1,42 +1,42 @@
 {
-  "name": "One Thing Dark",
+  "name": "One Thing Light",
   "author": "Inspired by One Thing theme for Zed",
-  "dark": true,
-  "parentTheme": "Darcula",
-  "editorScheme": "/colors/Monochrome.xml",
+  "dark": false,
+  "parentTheme": "IntelliJ",
+  "editorScheme": "/colors/Monochrome-Light.xml",
 
   "colors": {
-    "bg": "#02010A",
-    "bg_alt": "#0A0A12",
-    "fg": "#DEDEDE",
-    "fg_alt": "#B0B0B0",
+    "bg": "#FAFAFA",
+    "bg_alt": "#F2F2F2",
+    "fg": "#0A0A0A",
+    "fg_alt": "#4A4A4A",
 
-    "border": "#212122",
-    "border_variant": "#262626",
-    "element_hover": "#262626",
+    "border": "#E8E8E8",
+    "border_variant": "#F2F2F2",
+    "element_hover": "#EBEBEB",
     "disabled": "#7A7A7A",
 
-    "gray1": "#0A0A12",
-    "gray2": "#1A1A22",
-    "gray3": "#262626",
-    "gray4": "#3A3A3A",
-    "gray5": "#4F4F4F",
-    "gray6": "#7A7A7A",
-    "gray7": "#B0B0B0",
-    "gray8": "#DEDEDE",
+    "gray1": "#F2F2F2",
+    "gray2": "#E8E8E8",
+    "gray3": "#D5D5D5",
+    "gray4": "#B0B0B0",
+    "gray5": "#7A7A7A",
+    "gray6": "#5A5A5A",
+    "gray7": "#3A3A3A",
+    "gray8": "#0A0A0A",
 
-    "error": "#f38ba8",
-    "warning": "#f9e2af",
-    "info": "#94e2d5",
-    "success": "#a6e3a1",
-    "conflict": "#fab387",
+    "error": "#d20f39",
+    "warning": "#df8e1d",
+    "info": "#179299",
+    "success": "#40a02b",
+    "conflict": "#fe640b",
 
-    "vcs_added": "#a6e3a1",
-    "vcs_deleted": "#f38ba8",
-    "vcs_modified": "#f9e2af",
-    "vcs_conflict": "#fab387",
-    "vcs_renamed": "#74c7ec",
-    "vcs_ignored": "#6c7086"
+    "vcs_added": "#40a02b",
+    "vcs_deleted": "#d20f39",
+    "vcs_modified": "#df8e1d",
+    "vcs_conflict": "#fe640b",
+    "vcs_renamed": "#209fb5",
+    "vcs_ignored": "#9ca0b0"
   },
 
   "ui": {
@@ -48,10 +48,10 @@
       "selectionBackground": "element_hover",
       "selectionForeground": "fg",
       "selectionInactiveBackground": "gray1",
-      "infoForeground": "gray6",
+      "infoForeground": "gray5",
       "disabledForeground": "disabled",
-      "inactiveForeground": "gray6",
-      "acceleratorForeground": "gray6",
+      "inactiveForeground": "gray5",
+      "acceleratorForeground": "gray5",
       "acceleratorSelectionForeground": "fg",
       "errorForeground": "error"
     },
@@ -59,25 +59,25 @@
     "ActionButton": {
       "hoverBackground": "element_hover",
       "hoverBorderColor": "border_variant",
-      "pressedBackground": "gray3",
-      "pressedBorderColor": "gray4"
+      "pressedBackground": "gray2",
+      "pressedBorderColor": "gray3"
     },
 
     "Button": {
       "foreground": "fg",
-      "startBackground": "gray3",
-      "endBackground": "gray3",
-      "startBorderColor": "border_variant",
-      "endBorderColor": "border_variant",
-      "focusedBorderColor": "gray5",
+      "startBackground": "gray1",
+      "endBackground": "gray1",
+      "startBorderColor": "border",
+      "endBorderColor": "border",
+      "focusedBorderColor": "gray4",
       "default": {
         "foreground": "bg",
         "startBackground": "fg",
         "endBackground": "fg",
         "startBorderColor": "fg",
         "endBorderColor": "fg",
-        "focusedBorderColor": "gray7",
-        "focusColor": "gray7"
+        "focusedBorderColor": "gray6",
+        "focusColor": "gray6"
       }
     },
 
@@ -91,7 +91,7 @@
         "background": "gray1",
         "nonEditableBackground": "gray1",
         "disabledIconColor": "gray3",
-        "iconColor": "gray6"
+        "iconColor": "gray5"
       }
     },
 
@@ -104,27 +104,27 @@
     "Component": {
       "borderColor": "border",
       "disabledBorderColor": "gray1",
-      "focusedBorderColor": "border_variant",
+      "focusedBorderColor": "gray3",
       "errorFocusColor": "error",
       "inactiveErrorFocusColor": "error",
       "warningFocusColor": "warning",
       "inactiveWarningFocusColor": "warning",
-      "iconColor": "gray6",
-      "hoverIconColor": "gray7"
+      "iconColor": "gray5",
+      "hoverIconColor": "gray6"
     },
 
     "Counter": {
-      "background": "gray3",
+      "background": "gray2",
       "foreground": "fg"
     },
 
     "DebuggerPopup": {
-      "borderColor": "border_variant"
+      "borderColor": "border"
     },
 
     "DebuggerTabs": {
       "underlinedTabBackground": "element_hover",
-      "underlineColor": "gray6"
+      "underlineColor": "gray5"
     },
 
     "DefaultTabs": {
@@ -132,28 +132,28 @@
       "borderColor": "border",
       "hoverBackground": "element_hover",
       "inactiveUnderlineColor": "gray3",
-      "underlineColor": "gray6",
+      "underlineColor": "gray5",
       "underlineHeight": 2,
       "underlinedTabForeground": "fg"
     },
 
     "DragAndDrop": {
       "areaBackground": "element_hover",
-      "borderColor": "border_variant",
+      "borderColor": "border",
       "areaForeground": "fg"
     },
 
     "Editor": {
       "background": "bg",
       "foreground": "fg",
-      "shortcutForeground": "gray6"
+      "shortcutForeground": "gray5"
     },
 
     "EditorPane": {
       "background": "bg",
       "foreground": "fg",
       "inactiveBackground": "bg",
-      "inactiveForeground": "gray6"
+      "inactiveForeground": "gray5"
     },
 
     "EditorTabs": {
@@ -161,34 +161,34 @@
       "borderColor": "border",
       "hoverBackground": "element_hover",
       "inactiveUnderlineColor": "gray3",
-      "underlineColor": "gray6",
+      "underlineColor": "gray5",
       "underlineHeight": 2,
       "underlinedTabBackground": "bg_alt",
       "underlinedTabForeground": "fg"
     },
 
     "FileColor": {
-      "Blue": "gray2",
-      "Green": "gray2",
-      "Orange": "gray2",
-      "Rose": "gray2",
-      "Violet": "gray2",
-      "Yellow": "gray2"
+      "Blue": "gray1",
+      "Green": "gray1",
+      "Orange": "gray1",
+      "Rose": "gray1",
+      "Violet": "gray1",
+      "Yellow": "gray1"
     },
 
     "Label": {
       "foreground": "fg",
       "disabledForeground": "disabled",
       "errorForeground": "error",
-      "infoForeground": "gray6"
+      "infoForeground": "gray5"
     },
 
     "Link": {
       "activeForeground": "info",
       "hoverForeground": "info",
-      "pressedForeground": "gray7",
-      "visitedForeground": "gray6",
-      "secondaryForeground": "gray6"
+      "pressedForeground": "gray6",
+      "visitedForeground": "gray5",
+      "secondaryForeground": "gray5"
     },
 
     "List": {
@@ -219,7 +219,7 @@
 
     "Notification": {
       "background": "bg_alt",
-      "borderColor": "border_variant",
+      "borderColor": "border",
       "errorBackground": "bg_alt",
       "errorBorderColor": "error",
       "errorForeground": "fg",
@@ -238,12 +238,12 @@
 
     "ParameterInfo": {
       "background": "gray1",
-      "borderColor": "border_variant",
+      "borderColor": "border",
       "foreground": "fg",
       "currentOverloadBackground": "element_hover",
       "currentParameterForeground": "info",
       "disabledForeground": "disabled",
-      "infoForeground": "gray6",
+      "infoForeground": "gray5",
       "lineSeparatorColor": "border"
     },
 
@@ -257,13 +257,13 @@
       "hoverBackground": "element_hover",
       "lightSelectionBackground": "element_hover",
       "Button": {
-        "installBackground": "gray3",
-        "installBorderColor": "border_variant",
+        "installBackground": "gray1",
+        "installBorderColor": "border",
         "installForeground": "fg",
-        "installFillBackground": "gray3",
+        "installFillBackground": "gray1",
         "installFillForeground": "fg",
-        "updateBackground": "gray3",
-        "updateBorderColor": "border_variant",
+        "updateBackground": "gray1",
+        "updateBorderColor": "border",
         "updateForeground": "fg"
       },
       "SearchField": {
@@ -271,7 +271,7 @@
       },
       "SectionHeader": {
         "background": "bg",
-        "foreground": "gray6"
+        "foreground": "gray5"
       },
       "Tab": {
         "selectedBackground": "bg",
@@ -281,32 +281,32 @@
     },
 
     "Popup": {
-      "background": "bg_alt",
-      "borderColor": "border_variant",
+      "background": "bg",
+      "borderColor": "border",
       "inactiveBorderColor": "border",
       "separatorColor": "border",
-      "separatorForeground": "gray6",
+      "separatorForeground": "gray5",
       "Header": {
         "activeBackground": "element_hover",
         "inactiveBackground": "gray1"
       },
       "Toolbar": {
-        "background": "bg_alt",
+        "background": "bg",
         "borderColor": "border"
       }
     },
 
     "PopupMenu": {
-      "background": "bg_alt",
+      "background": "bg",
       "foreground": "fg",
       "selectionBackground": "element_hover",
       "selectionForeground": "fg"
     },
 
     "ProgressBar": {
-      "progressColor": "gray6",
+      "progressColor": "gray5",
       "indeterminateStartColor": "gray4",
-      "indeterminateEndColor": "gray7",
+      "indeterminateEndColor": "gray6",
       "failedColor": "error",
       "failedEndColor": "error",
       "passedColor": "success",
@@ -346,7 +346,7 @@
       "Advertiser": {
         "background": "bg_alt",
         "borderInsets": "0,8,5,0",
-        "foreground": "gray6"
+        "foreground": "gray5"
       },
       "Header": {
         "background": "bg_alt"
@@ -354,7 +354,7 @@
       "SearchField": {
         "background": "bg_alt",
         "borderColor": "border",
-        "infoForeground": "gray6"
+        "infoForeground": "gray5"
       },
       "Tab": {
         "selectedBackground": "element_hover",
@@ -385,7 +385,7 @@
       "foreground": "fg",
       "hoverColor": "element_hover",
       "tabSelectionHeight": 2,
-      "underlineColor": "gray6"
+      "underlineColor": "gray5"
     },
 
     "Table": {
@@ -407,7 +407,7 @@
 
     "TableHeader": {
       "background": "bg_alt",
-      "foreground": "gray6",
+      "foreground": "gray5",
       "bottomSeparatorColor": "border",
       "separatorColor": "border"
     },
@@ -418,18 +418,18 @@
       "caretForeground": "fg",
       "selectionBackground": "element_hover",
       "selectionForeground": "fg",
-      "inactiveForeground": "gray6"
+      "inactiveForeground": "gray5"
     },
 
     "TextField": {
-      "background": "bg_alt",
+      "background": "bg",
       "foreground": "fg",
       "caretForeground": "fg",
       "selectionBackground": "element_hover",
       "selectionForeground": "fg",
-      "inactiveForeground": "gray6",
-      "darkShadow": "gray1",
-      "highlight": "gray4"
+      "inactiveForeground": "gray5",
+      "darkShadow": "gray2",
+      "highlight": "gray3"
     },
 
     "TextPane": {
@@ -446,32 +446,32 @@
     },
 
     "ToggleButton": {
-      "borderColor": "border_variant",
-      "buttonColor": "gray6",
+      "borderColor": "border",
+      "buttonColor": "gray5",
       "disabledText": "disabled",
       "foreground": "fg",
       "offBackground": "gray2",
-      "offForeground": "gray6",
-      "onBackground": "gray6",
+      "offForeground": "gray5",
+      "onBackground": "gray5",
       "onForeground": "bg"
     },
 
     "ToolBar": {
       "background": "bg",
-      "borderHandleColor": "border_variant",
+      "borderHandleColor": "border",
       "floatingForeground": "fg",
       "foreground": "fg"
     },
 
     "ToolTip": {
-      "background": "gray1",
-      "borderColor": "border_variant",
+      "background": "bg_alt",
+      "borderColor": "border",
       "foreground": "fg",
-      "infoForeground": "gray6",
-      "shortcutForeground": "gray6",
+      "infoForeground": "gray5",
+      "shortcutForeground": "gray5",
       "Actions": {
-        "background": "gray1",
-        "infoForeground": "gray6"
+        "background": "bg_alt",
+        "infoForeground": "gray5"
       }
     },
 
@@ -491,7 +491,7 @@
         "hoverInactiveBackground": "gray1",
         "inactiveUnderlineColor": "gray3",
         "selectedInactiveBackground": "gray1",
-        "underlineColor": "gray6",
+        "underlineColor": "gray5",
         "underlineHeight": 2,
         "underlinedTabBackground": "element_hover",
         "underlinedTabInactiveBackground": "gray1"
@@ -551,7 +551,7 @@
       "captionBackground": "bg_alt",
       "captionForeground": "fg",
       "footerBackground": "bg_alt",
-      "footerForeground": "gray6",
+      "footerForeground": "gray5",
       "headerBackground": "bg_alt",
       "headerForeground": "fg",
       "separatorColor": "border",
@@ -579,22 +579,22 @@
 
   "icons": {
     "ColorPalette": {
-      "Actions.Blue": "#94e2d5",
-      "Actions.Green": "#a6e3a1",
+      "Actions.Blue": "#179299",
+      "Actions.Green": "#40a02b",
       "Actions.Grey": "#7A7A7A",
       "Actions.GreyInline.Dark": "#7A7A7A",
-      "Actions.Red": "#f38ba8",
-      "Actions.Yellow": "#f9e2af",
-      "Objects.Blue": "#94e2d5",
-      "Objects.Green": "#a6e3a1",
+      "Actions.Red": "#d20f39",
+      "Actions.Yellow": "#df8e1d",
+      "Objects.Blue": "#179299",
+      "Objects.Green": "#40a02b",
       "Objects.Grey": "#7A7A7A",
-      "Objects.Pink": "#f5c2e7",
-      "Objects.Purple": "#cbb0f7",
-      "Objects.Red": "#f38ba8",
-      "Objects.RedStatus": "#f38ba8",
-      "Objects.Yellow": "#f9e2af",
-      "Objects.YellowDark": "#f9e2af",
-      "Objects.BlackText": "#DEDEDE"
+      "Objects.Pink": "#ea76cb",
+      "Objects.Purple": "#7c3ed4",
+      "Objects.Red": "#d20f39",
+      "Objects.RedStatus": "#d20f39",
+      "Objects.Yellow": "#df8e1d",
+      "Objects.YellowDark": "#df8e1d",
+      "Objects.BlackText": "#0A0A0A"
     }
   }
 }

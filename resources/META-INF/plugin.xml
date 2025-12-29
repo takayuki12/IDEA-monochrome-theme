@@ -6,30 +6,35 @@
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
-    <name>One Thing Dark Theme</name>
+    <name>One Thing Theme</name>
     <category>UI</category>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor url="https://github.com/nyomansunima">Based on One Thing theme by Nyoman Sunima</vendor>
+    <vendor url="https://github.com/rust-lang-top/one-thing-theme-zed">Inspired by One Thing theme</vendor>
 
     <idea-version since-build="252.25557"/>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
     <description><![CDATA[
-        A minimalist dark theme for IntelliJ-based IDEs, ported from the One Thing theme by Nyoman Sunima.<br>
+        A minimalist theme pack for IntelliJ-based IDEs, ported from the One Thing theme by Nyoman Sunima.<br>
+        <br>
+        <em>Includes two variants:</em>
+        <ul>
+          <li><strong>One Thing Dark</strong> - Very dark background (#02010A) for reduced eye strain</li>
+          <li><strong>One Thing Light</strong> - Clean light background (#FAFAFA) for bright environments</li>
+        </ul>
         <br>
         <em>Features:</em>
         <ul>
           <li>Clean, distraction-free minimal design</li>
           <li>Mostly grayscale syntax highlighting with subtle differentiation</li>
-          <li>Very dark background (#02010A) for reduced eye strain</li>
           <li>Support for all major languages and frameworks</li>
           <li>Consistent UI theming across all IDE components</li>
           <li>VCS integration with subtle color indicators</li>
         </ul>
         <br>
-        Based on the excellent One Thing theme by Nyoman Sunima.
+        Inspired by the <a href="https://github.com/rust-lang-top/one-thing-theme-zed">One Thing theme for Zed</a>.
     ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
@@ -52,5 +57,6 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="com.github.onethingdark" path="/theme/monochrome.theme.json"/>
+        <themeProvider id="com.github.onethinglight" path="/theme/monochrome-light.theme.json"/>
     </extensions>
 </idea-plugin>
